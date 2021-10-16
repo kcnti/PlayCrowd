@@ -1,0 +1,291 @@
+* {
+  font-family: aktiv-grotesk-thai;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:focus {
+  outline:none !important;
+  box-shadow:none !important;
+}
+
+textarea:focus {
+  outline:none !important;
+  box-shadow:none !important;
+}
+
+input:focus {
+  outline:none !important;
+  box-shadow:none !important;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.navbar-collapse {
+  border: none;
+}
+
+#Navbar {
+  font-weight: bolder;
+}
+
+.Home-top {
+
+}
+
+.Home-top img {
+  width: 500px;
+  height: 300px;
+}
+
+.Home-left h3 {
+  font-size: 38px;
+}
+
+.Home-rightButton {
+  background-color: #6855ef;
+}
+
+.Home-leftButton,.Home-rightButton {
+  border: 1px solid black;
+}
+
+.Home-mid-card-type {
+  color: #6855ef;
+}
+
+.Home-middle-text {
+  color: black;
+}
+
+.Home-bottom p {
+  font-weight: bolder;
+  padding-top: 10px;
+}
+
+.Home-leftButton {
+  margin-left: 5px;
+}
+
+.Home-rightButton {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 998px) {
+  .Home-right {
+    display: none;
+  }
+  .Home-left {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .Home-rightButton, .Home-leftButton {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: flex !important;
+    justify-content: center;
+  }
+
+  .content-rightside p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 303px) {
+  .Home-left h3 {
+    font-size: 30px;
+  }
+}
+
+
+.What-top h3 {
+  text-align: center;
+}
+
+.What-mid h3 {
+  text-align: center;
+}
+
+.What-mid-reason {
+  text-align: center;
+}
+
+.Campaign-top-type {
+  color: #6855ef;
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+.Campaign-top-detail {
+  font-size: 16px
+}
+
+@media screen and (max-width: 767px) {
+  .Campaign img {
+    margin-top: 10px
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .Campaign img {
+    display: flex;
+    /* padding: 50px; */
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .Campaign img {
+    width: 200px;
+  }
+}
+
+.Campaign-midl-nav a {
+  color: black;
+}
+
+.Campaign-midl-detail {
+  margin-top: 40px;
+  font-family: Thonglor;
+  font-size: 15px;
+  color: black;
+}
+
+.Campaign-midr h5 {
+  margin-top: 20px;
+}
+
+.Campaign-midr-ways {
+  height: 20px;
+  width: 100%;
+}
+
+.profilepic {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+footer {
+  /* position: absolute; */
+  /* left:0;
+  bottom:0;
+  right:0; */
+  /* position: relative;
+  margin-top: -150px;
+  height: 150px;
+  clear:both;
+  padding-top:20px; */
+}
+
+#Footer a {
+  padding-top: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.Footer-contact {
+  margin-left: 20px;
+}
+
+.Signin-left {
+  position: relative;
+  height: 100vh;
+  background: #eeedf3;
+}
+
+.Signin-left-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+
+.Signin-left-content span {
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.Signin-right {
+  padding-top: 150px;
+}
+
+.Signin-right h3 {
+  color: #6855ef;
+  font-weight: 500;;
+}
+
+a.tos-nav {
+  color: black;
+}
+
+a.tos-nav.active {
+  color:#6855ef;
+}
+
+@media screen and (max-width: 420px) {
+  .What-mid-reason p {
+    font-size: 13px;
+  }
+  #signin-left {
+    display: none
+  }
+}
+
+.social {
+  margin-top: 40px;
+}
+
+.social a {
+  color: black;
+  font-weight: 500;
+  transition: all .3s ease-in-out;
+}
+
+.social a:hover {
+  color: rgb(104, 101, 101);
+}
+
+.social-facebook {
+  font-size: 20px;
+}
+
+.social-twitter {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 574px) {
+  .social-left {
+    margin-top: 40px;
+  }
+
+  .social-container-left {
+    padding: 0px 12px;
+  }
+  .social-facebook {
+    font-size: 20px;
+  }
+  
+  .social-twitter {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+
+  .social-left h3 {
+    font-size: 20px;
+  }
+}
